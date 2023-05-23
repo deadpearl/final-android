@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#3F628C"
+    android:layout_margin="6dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:layout_margin="20dp"
+        android:textColor="#FFF"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:text="Author"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:id="@+id/lines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lines"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:layout_margin="8dp" />
+    <TextView
+        android:id="@+id/linecount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="linecount"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/lines"
+        app:layout_constraintBottom_toBottomOf="@id/lines"
+        android:layout_margin="8dp" />
+
+</LinearLayout>
